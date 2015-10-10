@@ -1,0 +1,285 @@
+body{
+	height: 100%;
+	font-family: "Roboto", Helvetica, Arial, sans-serif;
+}
+section{
+	width: 100%;
+	height: 1000px;
+}
+.container{
+	width: 100%;
+}
+/*profilehome.php*/
+.advertise{
+	overflow: hidden;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.opacblack{	padding: 0px;
+	margin: 0px;
+	width: 100%;
+	background-color: rgba(0,0,0,.5);
+	right: 0px;
+}
+#logoimg{	
+	border: green;
+	padding:15%;
+	max-width:100%; 
+	height:auto;
+}
+.div-circle{
+	overflow: hidden;	
+	background-color: white;
+	border-radius: 50%;
+	height: 24em;
+	width: 24em;
+	padding: 0px;
+	margin:auto;
+}
+.advertise #tray{
+	min-height: 100%;
+	min-height: 100vh; 
+	display: flex;  
+	align-items: center;
+}
+#bot{
+	background-color:transparent; 
+	padding:0px;
+	margin:auto;
+}
+#compname{
+	color:white;
+	font-size: 50px;
+}
+#taglines{
+	color:white;
+}
+/*end of profilehome.php*/
+
+/*si rons nagdagdag*/
+#map{
+        width: 100%;
+        height: 300px;
+}
+.page-header h1{
+	text-align: center;
+	font-weight: 700;
+	font-size: 4em;
+	color: #949494;
+}
+
+.caption-1{
+	text-align: center;
+	color: white;
+	z-index: 5;	
+	position: absolute;
+	height: 50%;
+	width: 45%;
+	top: 30%;
+	right: 10%;
+}
+
+.caption-1 p {
+	font-size: 20px;
+}
+
+/*end ng kay rons*/
+
+/*profileservices.php*/
+.ServonDB{
+	padding: 1%;
+
+}
+.servicess{
+	display: inline-block;
+	margin:auto;
+}
+
+.imgservices{
+	background-color: white;
+	border-radius: 50%;
+	z-index: 5;	
+	height: 15em;
+	width: 15em;
+	padding: 0%;
+	margin:auto;
+	border:solid 10px;
+	border-color: #f0f0ee;
+	overflow: hidden;
+}
+#imgserv{
+	width:auto;
+	height: 100%;
+}
+.titleserv{
+
+	text-align: center;
+	text-decoration: bold;
+	position: relative;
+	height: auto;
+	font-size: 1.5em;
+	color: #666465;
+}
+.descserv{
+	width: 100%;
+	position: relative;
+	height: 7em;
+	overflow: hidden;
+	text-align: justify;
+	color: #666465;
+}
+/*end of profileservices*/
+
+/*profileabout.php*/
+.abtUs{
+	height: auto;
+	position: relative;
+	background-color: green;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	padding: 3% 5%;
+}
+.abtUs p{
+	font-size: 17px;
+	text-indent: 10%;
+	color: #c2bebd;
+	line-height: 200%;
+}
+.abtUs h1{
+	color: #20d8b2;
+}
+#col6{
+	padding-left:3%;
+}
+#col6 h2 {
+	color: #c2bebd
+}
+
+#abtdesc{
+	height:65vh;
+}
+
+#abtgilid h2{
+	color: #c2bebd;
+}
+
+#abtpip{
+	height: 440px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+#blocks{
+	height:65vh;
+	overflow:scroll; 
+}
+
+#blocks p{
+	text-indent: 0px;
+}
+
+.abtimage{
+	background-color: white;
+	border-radius: 50%;
+	height: 15em;
+	width: 15em;
+	padding: 0%;
+	border:solid 10px;
+	border-color: #f0f0ee;
+	overflow: hidden;
+}
+#abtserv{
+	width:auto;
+	height: 100%;
+}
+#abtserv p{
+	color: #c2bebd;
+}
+/*end of profileabout.php*/
+.Cont{
+	height: auto;
+	z-index: 0;
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+}
+#cont{
+	padding: 3% 10%;
+	background-color: orange;
+	position: relative;
+}
+.Cont p {
+	text-align: justify;
+	line-height: 200%;
+	font-size: 17px;
+	padding-right: 10%;
+}
+.maps{
+	height:275px;
+	position: relative;
+	width: 100%;
+	right: 0;
+	left: 0;
+	background-color: violet;
+}
+#tray{
+    display: -webkit-flex; /* Safari */
+    -webkit-flex-flow: row wrap; /* Safari 6.1+ */
+    -webkit-align-content: space-around; /* Safari 7.0+ */
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+}
+
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+  display: flex;
+  align-items: center;
+
+}
+.sepia {
+	width:100%;
+	height:100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+    -webkit-filter: grayscale(.9);
+    -moz-filter: grayscale(.9);
+    -ms-filter: grayscale(.9);
+    -o-filter: grayscale(.9);
+    filter: url(grayscale.svg); /* Firefox 4+ */
+    filter: black; /* IE 6-9 */
+}
+.sepia:after {
+    display:relative;
+    content:"";
+    background-color:#000;
+    opacity:.7;
+}	
+
+
+/*tagline1.php*/
+#thisTagline
+{
+	color:white;
+}
+
+@media all and (max-width: 374px) {
+   	.jumbotron p{
+
+       font-size: 12px;
+    }
+
+
+    .div-circle{
+	margin-top: 5px;
+	height: 20em;
+	width: 20em;
+	}
+
+	.advertise
+	{
+	background-size: cover;
+	}
+}	

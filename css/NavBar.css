@@ -1,0 +1,77 @@
+#header{
+	position: fixed;
+	width: 100%;
+	z-index: 1000;
+	box-shadow: 0px 2px 6px -2px rgba(0,0,0,.2);
+	background-color: #ffffff;
+	animation: slidedown 1.5s;
+	height: 60px;
+}
+
+#searchme{
+  
+  border: 1px solid #b7b7b7;
+  -webkit-border-radius: 10px 0 0 10px;
+  border-radius: 10px 0 0 10px;
+  color: rgba(0,142,198,1);
+  background: rgba(232,232,232,1);
+  -webkit-box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2) inset;
+  box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2) inset;
+  text-shadow: 1px 1px 0 rgba(255,255,255,0.66) ;
+  -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+}
+.outlogo{
+	position: absolute;
+	left:10%;
+	right: auto;
+	top:0;
+	bottom: auto;
+	z-index: 10001;
+	height: 55px;
+}
+.inlogo{
+	width: 200px;
+	height: 55px;
+}
+
+.navbar{
+	height: 100%;
+	padding: 0px 0px;
+}
+
+.icon-bar{
+	background-color: black;
+}
+
+#mysearch{
+	background-color: white;
+	padding: 10px 10px;
+	position: absolute;
+	top: 60px;
+	bottom: auto;
+	right: 20px;
+	left: auto;
+	width: 35%;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border-bottom: solid 3px #d0cfcc;
+	display: none;
+	z-index: 1001;
+}
+#s-btn{
+	-webkit-border-radius: 0 10px 10px 0;
+	border-radius: 0 10px 10px 0;
+}
+#myNavbar{
+	float: right;
+}
+
+@keyframes slidedown{
+	0%{
+		opacity: 0.2;
+		transform: translatey(-100%);
+	}
+}

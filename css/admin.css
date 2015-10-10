@@ -1,0 +1,76 @@
+#pages{
+	width: 100%;
+	padding: 0px;
+}
+/*-----------------------------admin module*/
+
+#dash{
+	background-color: #f8f8f8;
+	height: 100%;
+	margin-left:0%;
+	padding: 0;
+	border: solid 1px #e7e7e7;
+	padding-top: 100px;
+}
+
+#tabls{
+width: 100%;
+color: #337ab7;
+cursor: pointer;
+}
+
+#tabls tr{
+	border-bottom: solid 1px #e7e7e7;
+	height: 40px;
+	width: 100%;
+}
+
+#tabls tr:hover{
+	background-color: #eeeeee;
+}
+
+#tabls tr td{
+	padding-left: 10%;
+	font-size: 15px;
+}
+#tabls tr td a{
+	display: block;
+}
+.arrow{
+	float: right;
+	margin-right: 10%;
+}
+.sec{
+	display: none;
+}
+.sec p{
+	text-indent: 25%;
+}
+
+
+
+/*----------------------------------------content*/
+#contains{
+	background-color: #ffffff;
+	height:100%;
+	width: 83.33333333%;
+	margin-right: 0px;
+	padding-top: 60px;
+	padding-left: 0px;
+	padding-right: 0px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+/*profi-------------------------	frame*/
+#fram{
+	height: 100%;
+	width: 100%;
+}
+
+/*------------------------------------Members*/
+
+
+#btnaddmember{
+	width: 100%;
+}
